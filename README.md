@@ -23,7 +23,7 @@ data/
 │   ├── tumor/
 │   └── no_tumor/
 ```
-The dataset is processed and split within the training pipeline.
+The dataset is loaded, preprocessed, and split within the training pipeline.
 
 ## Why F1-Score?
 
