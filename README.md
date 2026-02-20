@@ -17,12 +17,12 @@ The dataset consists of labeled brain MRI images organized into two classes:
 - **no_tumor (healthy)**
 
 Images are stored in the following structure:
-
+```
 data/
 ├── raw/
 │   ├── tumor/
 │   └── no_tumor/
-
+```
 The dataset is processed and split within the training pipeline.
 
 ## Why F1-Score?
