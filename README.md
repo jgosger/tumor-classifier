@@ -10,28 +10,20 @@ Models are compared using pipelines, hyperparameter tuning, and cross-validation
 ---
 
 ## Dataset
-Folder structure:
 
-tumor-classifier/
-├── data/
-│   └── raw/
-│       └── Tumor/
-│           ├── yes/
-│           └── no/
-├── models/
-│   ├── best_model.pkl
-│   └── label_encoder.pkl
-├── reports/
-│   └── metrics.json
-├── src/
-│   ├── data.py
-│   ├── model.py
-│   ├── train.py
-│   ├── evaluate.py
-│   └── utils.py
-├── requirements.txt
-└── README.md
+The dataset consists of labeled brain MRI images organized into two classes:
 
+- **tumor**
+- **no_tumor (healthy)**
+
+Images are stored in the following structure:
+
+data/
+├── raw/
+│   ├── tumor/
+│   └── no_tumor/
+
+The dataset is processed and split within the training pipeline.
 
 ## Why F1-Score?
 
